@@ -1,0 +1,24 @@
+#include <sstream>
+#include <vector>
+#include <iostream>
+using namespace std;
+int main() {
+    int i;
+    string st;
+    cin>>st;
+    for(i=0;i<st.size();i++)
+    {
+        if(st[i]==',')
+        {
+              cout<<"\n";
+        continue;
+        }
+        else{
+         cout<<st[i];
+        }
+      
+    }
+
+    
+    return 0;
+}
