@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,s,d,m;
+    cin>>a;
+    cin>>b;
+    s=a+b;
+    cout<<s;
+   cout<<endl;
+    d=a-b;
+    if(d<0){
+        m=d*(-1);
+        cout<<m;
+    }
+    else
+    cout<<d;
+    return 0;
+    
+}
